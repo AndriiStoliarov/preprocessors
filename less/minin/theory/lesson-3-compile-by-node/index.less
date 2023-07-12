@@ -1,0 +1,12 @@
+@color: red;
+
+.test {
+    background-color: @color;
+    text-align: center;
+
+    & span {
+        width: 50px;
+        height: 50px;
+        background-color: @color;
+    }
+}

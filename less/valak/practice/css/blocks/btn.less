@@ -1,0 +1,48 @@
+// main: ../style.less
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em 1em;
+
+    background-color: #ccc;
+    border-radius: @radius;
+
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+
+    transition: background .1s linear;
+
+    span {
+        color: @black;
+    }
+
+    & + & {
+        margin-left: 1rem;
+    }
+
+    .disabled & {
+        opacity: .5;
+        cursor: not-allowed;
+    }
+
+    &:hover,
+    &:focus {
+        outline: 0;
+        background-color: #c4c4c4;
+    }
+
+    &--primary {
+        .btn(@primary);
+    }
+
+    &--secondary {
+        .btn(@secondary);
+    }
+
+    &--green {
+        .btn(@success);
+    }
+}

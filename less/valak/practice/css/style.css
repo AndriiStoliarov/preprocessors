@@ -1,0 +1,165 @@
+html,
+body {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.title {
+  margin: 0;
+  font-size: 2.2rem;
+  color: rgba(14, 36, 235, 0.5);
+  font-weight: 700;
+}
+@media (max-width: 575px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em 1em;
+  background-color: #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: background 0.1s linear;
+}
+.btn span {
+  color: #000;
+}
+.btn + .btn {
+  margin-left: 1rem;
+}
+.disabled .btn {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn:hover,
+.btn:focus {
+  outline: 0;
+  background-color: #c4c4c4;
+}
+.btn--primary {
+  background-color: #0e24eb;
+}
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: #0b1dbb;
+}
+.btn--secondary {
+  background-color: #f0db1e;
+}
+.btn--secondary:hover,
+.btn--secondary:focus {
+  background-color: #cdba0e;
+}
+.btn--green {
+  background-color: #adf776;
+  color: #000;
+}
+.btn--green:hover,
+.btn--green:focus {
+  background-color: #90f446;
+}
+.post {
+  width: 400px;
+  height: 200px;
+  background: url("../img/bg.jpg") center no-repeat;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.col-1 {
+  width: 8.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-2 {
+  width: 16.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-3 {
+  width: 25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-4 {
+  width: 33.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-5 {
+  width: 41.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-6 {
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-7 {
+  width: 58.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-8 {
+  width: 66.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-9 {
+  width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-10 {
+  width: 83.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-11 {
+  width: 91.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-12 {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}

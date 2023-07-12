@@ -1,0 +1,34 @@
+// first kind loop
+@for $i from 1 through 12 {
+    .col-xs-#{$i} {
+        width: $i * 2em;
+    }
+}
+
+// second kind loop
+$people: vanya, petya, igor;
+
+@each $person in $people {
+    .#{$person}-profile {
+        background-image: url('/img/#{$person}.jpg');
+    }
+}
+
+// third kind loop
+$fonts: (tiny: 8px, medium: 10px, large: 13px, extra-large: 20px);
+
+@each $name, $value in $fonts {
+    .#{$name} {
+        font-size: $value;
+    }
+}
+
+// fourth kind loop
+$i: 1;
+
+@while $i <= 10 {
+    .picture-#{$i} {
+        width: $i * 15%;
+    }
+    $i: $i * 2;
+}

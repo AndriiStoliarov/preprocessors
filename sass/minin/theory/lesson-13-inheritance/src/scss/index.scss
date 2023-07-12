@@ -1,0 +1,18 @@
+.error {
+    color: red;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+%no-compile {
+    bottom: 1px;
+}
+
+.critical-error {
+    @extend .error;
+    @extend h1;
+    @extend %no-compile;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+@function sum($from, $to) {
+    @return $from + $to;
+}
+
+@function px-to-em($px, $context: 16px) {
+    @return calc($px / $context) * 1em;
+}
+
+@function strip-value($value) {
+    @return $value / (($value * 0) + 1);
+}
+
+h1 {
+    font-size: sum(40px, 20px);
+    margin: px-to-em(30px);
+    padding: strip-value(40px) * 1vh;
+}

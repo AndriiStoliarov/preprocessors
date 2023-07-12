@@ -1,0 +1,23 @@
+/*
+@mixin rounded {
+    border-radius: 5px;
+}
+
+@mixin block {
+    @include rounded;
+    border: 1px solid black;
+}
+*/
+
+@mixin rounded($radius: 5px) {
+    border-radius: $radius;
+}
+
+@mixin block($radius: 5px, $border: 1px solid black) {
+    @include rounded($radius);
+    border: $border;
+}
+
+@mixin box-shadow($shadows...) {
+    box-shadow: $shadows;
+}

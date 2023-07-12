@@ -1,0 +1,7 @@
+$value: 5px;
+$color: #abc111;
+
+body {
+    font-size: $value * 4;
+    color: $color - #112;
+}

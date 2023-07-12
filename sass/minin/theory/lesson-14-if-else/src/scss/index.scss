@@ -1,0 +1,37 @@
+/*
+$theme: theme-3;
+
+body {
+    @if $theme == theme-1 {
+        color: red;
+    } @else if $theme == theme-2 {
+        color: blue;
+    } @else {
+        color: green;
+    }
+}
+*/
+
+$theme: theme-2;
+
+@mixin theme-1 {
+    @if $theme == theme-1 {
+        @content;
+    }
+}
+
+@mixin theme-2 {
+    @if $theme == theme-2 {
+        @content;
+    }
+}
+
+body {
+    @include theme-1 {
+        font-size: 100px;
+    }
+
+    @include theme-2 {
+        font-size: 200px;
+    }
+}

@@ -1,0 +1,17 @@
+@import "mixins";
+
+ul {
+    @include apply-li {
+        text-decoration: underline;
+        padding: 5px;
+        color: blue;
+    }
+}
+
+ul.test {
+    @include apply-li {
+        margin: 0 auto;
+        padding: 20px;
+        background-color: papayawhip;
+    }
+}

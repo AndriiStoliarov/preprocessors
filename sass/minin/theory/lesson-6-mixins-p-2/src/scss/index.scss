@@ -1,0 +1,6 @@
+@import "mixins";
+
+body {
+    @include block($border: 2px dotted red, $radius: 20px);
+    @include box-shadow(1px 1px 1px #eee, 2px 2px 2px black);
+}

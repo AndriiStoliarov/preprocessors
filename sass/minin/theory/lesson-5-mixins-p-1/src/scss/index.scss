@@ -1,0 +1,36 @@
+/*
+@mixin font {
+    font: {
+        size: 14px;
+        weight: bold;
+    }
+}
+
+@mixin color {
+    @include font;
+    color: #fff;
+    background-color: red;
+}
+
+body {
+    @include font;
+}
+
+p {
+    @include color;
+}
+*/
+$link: orange;
+
+@mixin link-color {
+    a {
+        color: $link;
+        background-color: blue;
+    }
+}
+
+@include link-color;
+
+p {
+    @include link-color;
+}
