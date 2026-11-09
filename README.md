@@ -2,7 +2,7 @@
 
 ## less
 
-Less (**Leaner Style Sheets**; sometimes stylized as **LESS**) is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client side or server side. Designed by Alexis Sellier, Less is an open source project. Less provides the following mechanisms: variables, nesting, mixins, operators and functions; the main difference between Less and other CSS precompilers is that Less allows real-time compilation via less.js by the browser.
+**Less** (**Leaner Style Sheets**; sometimes stylized as **LESS**) is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client side or server side. Designed by Alexis Sellier, Less is an open source project. Less provides the following mechanisms: variables, nesting, mixins, operators and functions; the main difference between Less and other CSS precompilers is that Less allows real-time compilation via less.js by the browser.
 
 ## sass
 
