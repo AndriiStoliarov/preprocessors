@@ -1,4 +1,4 @@
-# {🟦} less
+# { } less
 
 ## vladilenMinin
 
@@ -6,4 +6,4 @@ Quick course on Angular
 
 ## dmitryValak
 
-Basic course on Angular
+LEES in 50 minutes
