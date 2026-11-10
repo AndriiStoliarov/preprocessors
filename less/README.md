@@ -1,13 +1,9 @@
-# 🅰️ angular
-
-## yuriSimonov
-
-Basic course on Angular
-
-## ivanChernyakov
-
-Angular course for beginners
+# {🟦} less
 
 ## vladilenMinin
 
 Quick course on Angular
+
+## dmitryValak
+
+Basic course on Angular
