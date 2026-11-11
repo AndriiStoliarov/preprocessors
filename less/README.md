@@ -2,8 +2,8 @@
 
 ## vladilenMinin
 
-Quick course on Angular
+temp Basic Less course
 
 ## dmitryValak
 
-LEES in 50 minutes
+LESS in 50 minutes
