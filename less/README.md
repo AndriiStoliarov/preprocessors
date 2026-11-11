@@ -2,7 +2,7 @@
 
 ## vladilenMinin
 
-temp Basic Less course
+Basic Less course
 
 ## dmitryValak
 
